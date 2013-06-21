@@ -16,10 +16,11 @@ Couple of more books, I would like to refer are...
 
 I have following setup, but none is essential, there are other options to achive the same.
 
-1. Fedora 18 (will be moved to 19), 
-2. Node.JS, 
-3. NPM and 
-4. Jasmine-Node
-5. FireFox 21.0 with Firebug
+1. Fedora 18 (will be moved to 19)
+2. Node.JS
+3. NPM
+4. Jasmine-Node (for testing JavaScripts based on RSpec/BDD)
+5. EMACS
+6. FireFox 21.0 with Firebug
 
 
