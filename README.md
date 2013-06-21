@@ -1,7 +1,7 @@
 js-jazz-mine
 ============
 
-Goal is to learn JavaScript, the right way, with claims cross-examined (tested) using Jasmine. To be more precise, the goal is not to learn everything JavaScript as a language offers. I am targeting only selective, effective, good, functional parts of the language.
+Goal is to learn JavaScript, the right way, with claims cross-examined (tested) using Jasmine. To be more precise, the goal is not to learn everything JavaScript as a language offers. Selectively, I am targeting only functional, good and effective parts of the language.
 
 Folloiwng are the books, I am refering.
 
@@ -20,6 +20,6 @@ I have following setup, but none is essential, there are other options to achive
 2. Node.JS, 
 3. NPM and 
 4. Jasmine-Node
-
+5. FireFox 21.0 with Firebug
 
 
