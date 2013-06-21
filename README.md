@@ -1,29 +1,24 @@
 js-jazz-mine
 ============
 
-Goal is to learn JavaScript, the right way, with claims cross-examined (tested) using Jasmine.
+Goal is to learn JavaScript, the right way, with claims cross-examined (tested) using Jasmine. To be more precise, the goal is not to learn everything JavaScript as a language offers. I am targeting only selective, effective, good, functional parts of the language.
 
-<dl>
-<dd>Q: But how to determine the Way chosen will be the Right way? </dd>
-<dd>A: Well, I looked to the sky; to be precise, to the Cloud and got the clues!!! Folloiwng are the books, I am refering.</dd>
+Folloiwng are the books, I am refering.
 
-JavaScript : The Definitive Guide 
-JavaScript : The Good Parts 
-Secrets of the JavaScript Ninja
+1. JavaScript : The Definitive Guide 
+2. JavaScript : The Good Parts 
+3. Secrets of the JavaScript Ninja
 
 Couple of more books, I would like to refer are... 
-Functional JavaScript (I am eagerly waiting for a copy of this book.) 
-Effective JavaScript
+1. Functional JavaScript (I am eagerly waiting for a copy of this book.) 
+2. Effective JavaScript
 
-Q: Learn JavaScript? Means? 
-A: Just language, nothing else. Not everything of the language, only selective, effective, good, functional parts.
+I have following setup, but none is essential, there are other options to achive the same.
 
-Q: Why? 
-A: Why? :) The clues are in the referenced books.
+1. Fedora 18 (will be moved to 19), 
+2. Node.JS, 
+3. NPM and 
+4. Jasmine-Node
 
-Q: What about Jasmine? 
-A: Jasmine is a JavaScript testing tool based on RSpec/BDD.
 
-Q: What's the setup? 
-A: Fedora 18 (will be moved to 19), Node.JS, NPM and Jasmine-Node - none is essential, there are other options available.
-</dl>
+
