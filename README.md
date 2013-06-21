@@ -23,4 +23,7 @@ I have following setup, but none is essential, there are other options to achive
 5. EMACS
 6. FireFox 21.0 with Firebug
 
-Note: Contrary to the Jasmine suggestion, most of the times, source code is written in the "spec" folder itself for ease.
+#####Note: 
+
+1. Contrary to the Jasmine suggestion, most of the times, source code is written in the "spec" folder itself for ease.
+2. Further plan is to elaborate code-commets, to be more explanatory.
