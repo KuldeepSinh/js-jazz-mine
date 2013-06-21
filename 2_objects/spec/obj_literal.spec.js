@@ -5,7 +5,7 @@ describe("Oject Literals : ", function()
 	   var o = {};
 	   expect(typeof(o)).toEqual("object");
        });
-    it("object is a collection of zero or more key:value pair.", function()
+    it("object is a collection of zero or more key:value pairs.", function()
        {
 	   var o = {key:"value"};
 	   expect(typeof(o)).toEqual("object");
