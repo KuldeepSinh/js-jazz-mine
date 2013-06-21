@@ -10,6 +10,7 @@ Folloiwng are the books, I am refering.
 3. Secrets of the JavaScript Ninja
 
 Couple of more books, I would like to refer are... 
+
 1. Functional JavaScript (I am eagerly waiting for a copy of this book.) 
 2. Effective JavaScript
 
