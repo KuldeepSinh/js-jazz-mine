@@ -3,8 +3,9 @@ js-jazz-mine
 
 Goal is to learn JavaScript, the right way, with claims cross-examined (tested) using Jasmine.
 
-Q: But how to determine the Way chosen will be the Right way? 
-A: Well, I looked to the sky; to be precise, to the Cloud and got the clues!!! Folloiwng are the books, I am refering.
+<dl>
+<dd>Q: But how to determine the Way chosen will be the Right way? </dd>
+<dd>A: Well, I looked to the sky; to be precise, to the Cloud and got the clues!!! Folloiwng are the books, I am refering.</dd>
 
 JavaScript : The Definitive Guide 
 JavaScript : The Good Parts 
@@ -25,3 +26,4 @@ A: Jasmine is a JavaScript testing tool based on RSpec/BDD.
 
 Q: What's the setup? 
 A: Fedora 18 (will be moved to 19), Node.JS, NPM and Jasmine-Node - none is essential, there are other options available.
+</dl>
