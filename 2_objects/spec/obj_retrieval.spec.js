@@ -1,11 +1,11 @@
 describe("Retrieve values from object : ", function()
 {
-    it('Value of an object property can be retrieve using following syntax : obj["key"].', function()
+    it('Value of an object property can be retrieved using following syntax : obj["key"].', function()
        {
 	   var o = {key:"value"};
 	   expect(o["key"]).toEqual("value");
        });
-    it('Value of an object property can be retrieve using following syntax : obj.key.', function()
+    it('Value of an object property can be retrieved using following syntax : obj.key.', function()
        {
 	   var o = {key:"value"};
 	   expect(o.key).toEqual("value");
@@ -21,7 +21,7 @@ describe("Retrieve values from object : ", function()
 	   var f = o.foo || "Not Available";
 	   expect(f).toEqual("Not Available");
        });
-    it('Attempting to retrieve values from an undefined property will throw a TypeError exception.', function()
+    it('Attempting to retrieve values from an undefined property throws a TypeError exception.', function()
        {
 	   var o = {key:"value"};
 	   var f = function() 
