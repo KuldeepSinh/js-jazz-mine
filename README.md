@@ -1,7 +1,7 @@
-js-jazz-mine
+js-jazz-mine - JavaScript with Jasmine...
 ============
 
-Goal is to learn JavaScript, the right way, with claims cross-examined (tested) using Jasmine. To be more precise, the goal is not to learn everything JavaScript as a language offers. Selectively, I am targeting only functional, good and effective parts of the language.
+Goal is to learn JavaScript, the right way, with various language constructs cross-examined (tested) using Jasmine. To be more precise, the goal is not to learn everything that JavaScript as a language offers. Selectively, the target is limited to functional, good and effective parts of the language.
 
 Folloiwng are the books, I am refering.
 
@@ -23,4 +23,4 @@ I have following setup, but none is essential, there are other options to achive
 5. EMACS
 6. FireFox 21.0 with Firebug
 
-
+Note: Contrary to the Jasmine suggestion, most of the times, source code is written in the "spec" folder itself for ease.
