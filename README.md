@@ -1,7 +1,7 @@
 js-jazz-mine - JavaScript with Jasmine...
 ============
 
-Goal is to learn JavaScript, the right way, with various language constructs cross-examined (tested) using Jasmine. To be more precise, the goal is not to learn everything that JavaScript as a language offers. Selectively, the target is limited to functional, good and effective parts of the language.
+Goal is to learn JavaScript as a language, the right way. Neither as client-side scripting nor as server-side scripting. I intent to cross-examine/test/proove various language constructs using Jasmine. To iterate - the goal is not to learn everything that JavaScript offers. Selectively, the target is limited to the good, functional, and effective parts of the language.
 
 Folloiwng are the books, I am refering.
 
@@ -25,5 +25,5 @@ I have following setup, but none is essential, there are other options to achive
 
 #####Note: 
 
-1. Contrary to the Jasmine suggestion, most of the times, source code is written in the "spec" folder itself for ease.
+1. Contrary to the convention suggested by Jasmine, most of the times, source code is written within the spec files, for ease.
 2. Further plan is to elaborate code-commets, to be more explanatory.
