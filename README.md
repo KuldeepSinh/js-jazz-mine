@@ -11,7 +11,7 @@ Folloiwng are the books, I am refering.
 
 Couple of more books, I would like to refer are... 
 
-1. Functional JavaScript (I am eagerly waiting for a copy of this book.) 
+1. Functional JavaScript
 2. Effective JavaScript
 
 I have following setup, but none is essential, there are other options to achive the same.
