@@ -1,7 +1,7 @@
 js-jazz-mine - JavaScript with Jasmine...
 ============
 
-Goal is to learn JavaScript as a language, the right way. Neither as client-side scripting nor as server-side scripting. I intent to cross-examine/test/proove various language constructs using Jasmine. To iterate - the goal is not to learn everything that JavaScript offers. Selectively, the target is limited to the good, functional, and effective parts of the language.
+Goal is to learn core JavaScript language. Neither as client-side scripting nor as server-side scripting. In other words - the goal is not to learn everything that JavaScript offers. Selectively, the target is limited to the good, functional and effective parts of the language. Further, I intent to cross-examine/test various language constructs using Jasmine.
 
 Folloiwng are the books, I am refering.
 
@@ -11,7 +11,7 @@ Folloiwng are the books, I am refering.
 
 Couple of more books, I would like to refer are... 
 
-1. Functional JavaScript (I am eagerly waiting for a copy of this book.) 
+1. Functional JavaScript
 2. Effective JavaScript
 
 I have following setup, but none is essential, there are other options to achive the same.
