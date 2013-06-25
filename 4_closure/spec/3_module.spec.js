@@ -22,9 +22,9 @@ describe("Modules : ", function(){
 					return result;
 				}
 			};
-		};
-
+		};		
 		var sequencer = serial_maker();
+		//invoke inner functions.
 		sequencer.set_prefix("Q");
 		sequencer.set_sequence(1000);
 		expect(sequencer.generate_symbol()).toEqual("Q1000");
