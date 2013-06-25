@@ -1,7 +1,7 @@
 js-jazz-mine - JavaScript with Jasmine...
 ============
 
-Goal is to learn core JavaScript language. Neither as client-side scripting nor as server-side scripting. In other words - the goal is not to learn everything that JavaScript offers. Selectively, the target is limited to the good, functional and effective parts of the language. Further, I intent to cross-examine/test various language constructs using Jasmine.
+Goal is to learn core JavaScript language, the right way. Neither as client-side scripting nor as server-side scripting. In other words - the goal is not to learn everything that JavaScript offers. Selectively, the target is limited to the good, functional and effective parts of the language. Further, I intent to cross-examine/test various language constructs using Jasmine.
 
 Folloiwng are the books, I am refering.
 
@@ -20,8 +20,9 @@ I have following setup, but none is essential, there are other options to achive
 2. Node.JS
 3. NPM
 4. Jasmine-Node (for testing JavaScripts based on RSpec/BDD)
-5. EMACS
-6. FireFox 21.0 with Firebug
+5. JSHint
+6. EMACS/Sublime
+7. FireFox 21.0 with Firebug
 
 #####Note: 
 
