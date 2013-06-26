@@ -14,7 +14,7 @@ describe("Conctructor Invocation : ", function(){
 		expect(con1 instanceof Context).toBeTruthy();
 		expect(con1.constructor).toBe(Context);
 	});
-	it("Functions created with new operator, are instance of parent type.", function(){
+	it("Functions created with new operator, are instances of parent type.", function(){
 		var con1 = new Context();		
 		expect(con1 instanceof Context).toBeTruthy();
 		expect(con1.constructor).toBe(Context);
