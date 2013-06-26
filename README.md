@@ -27,5 +27,5 @@ I have following setup, but none is essential, there are other options to achive
 #####Note: 
 
 1. Contrary to the convention suggested by Jasmine, most of the times, source code is written within the spec files, for ease.
-2. Further plan is to elaborate code-commets and bring meaningful ordering amont the scripts, so that it will give a better learning experience to whoever reads my code.
+2. Further plan is to elaborate code-commets and bring meaningful ordering among the scripts.
 3. Lately, I discovered that my approach of testing while learning can also be termed as "JavaScript Koan". 
