@@ -9,12 +9,16 @@ describe("Prototypal inheritance : ", function(){
 			// Create a new object with p as its prototype
 			return Object.create(p);
 		};
+
+		//create base/parent object.
 		var mammal = {
 			kind : "Mammal",
 			get_kind : function(){
 				return this.kind;
 			}
 		};
+
+		//inherit parent object and customize it.
 		var cow = mammal.clone();
 		cow.kind = "Bowine";
 		cow.legs = 4;
@@ -22,6 +26,8 @@ describe("Prototypal inheritance : ", function(){
 		cow.get_status = function(){
 			return "Eating " + cow.graze;
 		};
+
+		//test
 		expect(cow.kind).toEqual("Bowine");
 		expect(cow.get_status()).toEqual("Eating grass");
 	});
