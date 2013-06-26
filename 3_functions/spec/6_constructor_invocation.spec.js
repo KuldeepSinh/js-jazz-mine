@@ -10,14 +10,11 @@ describe("Conctructor Invocation : ", function(){
 	});	
 	it("Functions created with new operator, are of type = object.", function(){
 		var con1 = new Context();
-		expect(typeof(con1)).toBe("object");
-		expect(con1 instanceof Context).toBeTruthy();
-		expect(con1.constructor).toBe(Context);
+		expect(typeof(con1)).toBe("object");		
 	});
 	it("Functions created with new operator, are instances of parent type.", function(){
 		var con1 = new Context();		
-		expect(con1 instanceof Context).toBeTruthy();
-		expect(con1.constructor).toBe(Context);
+		expect(con1 instanceof Context).toBeTruthy();		
 	});
 	it("Function created with new operator, contains a constructor, which is of parent type.", function(){
 		var con1 = new Context();
