@@ -55,4 +55,21 @@ describe("Functions are First-class objects : ", function(){
 		expect(adder5(10)).toEqual(15);
 		expect(adder7(10)).toEqual(17);
 	});
+	it("Function can accept other objects as argument.", function(){
+		var person = {
+			first_name : "Abc",
+			last_name : "Xyz",
+			age : 30,
+			height : 180,
+			color : "brown"
+		};
+
+		var Me = function(person){
+			expect(person.first_name).toEqual("Abc");
+			expect(person.last_name).toEqual("Xyz");
+			expect(person.age).toEqual(30);
+			expect(person.height).toEqual(180);
+			expect(person.color).toEqual("brown");
+		};
+	});
 });
