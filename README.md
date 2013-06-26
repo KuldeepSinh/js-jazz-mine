@@ -5,14 +5,14 @@ Goal is to learn core JavaScript language, the right way. Neither as client-side
 
 Following are the books, I am refering.
 
-1. JavaScript : The Definitive Guide 
-2. JavaScript : The Good Parts 
-3. Secrets of the JavaScript Ninja
+1. JavaScript : The Definitive Guide - David Flanagan
+2. JavaScript : The Good Parts - Douglas Crockford
+3. Secrets of the JavaScript Ninja - John Resig & Bear Bilbeault
 
 Couple of more books, I would like to refer are... 
 
-1. Functional JavaScript
-2. Effective JavaScript
+1. Functional JavaScript - Michael Fogus
+2. Effective JavaScript - David Herman
 
 I have following setup, but none is essential, there are other options to achive the same.
 
