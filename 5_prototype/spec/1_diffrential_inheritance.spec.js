@@ -1,34 +1,31 @@
 //A new object can inherit the properties of old object
 describe("Prototypal inheritance : ", function(){
 	it("Differential inheritance, customizes the parent object.", function(){
+		if (typeof Object.create !== 'function') {
+			Object.create = function (o) {
+			var F = function () {};
+			F.prototype = o;
+			return new F();
+			};
+		}
 
-		//following method provides cloning mechanism.
-		Object.prototype.clone = function(){
-			// Extract the prototype from the "this" object
-			var p = Object.getPrototypeOf(this);
-			// Create a new object with p as its prototype
-			return Object.create(p);
-		};
+		//base object
+		var root = {}; // Could be any object with any prototype object
 
-		//create base/parent object.
-		var mammal = {
-			kind : "Mammal",
-			get_kind : function(){
-				return this.kind;
-			}
-		};
-
-		//inherit parent object and customize it.
-		var cow = mammal.clone();
-		cow.kind = "Bowine";
-		cow.legs = 4;
-		cow.graze = "grass";
-		cow.get_status = function(){
-			return "Eating " + cow.graze;
-		};
-
+		//generic person object, created from root.
+		var person = Object.create(root);
+		person.firstName = false;
+		person.lastName = false;		
+		person.toString = function(){ 
+		return this.firstName ? (this.lastName ? this.firstName + " " +this.lastName : this.firstName) 
+			: (this.lastName ? this.lastName : "a Person");
+		}; 
+		
+		//JoePerson is created from person.
+		JoePerson = Object.create(person);
+		JoePerson.firstName = "Joe";
 		//test
-		expect(cow.kind).toEqual("Bowine");
-		expect(cow.get_status()).toEqual("Eating grass");
+		expect(JoePerson.toString()).toEqual("Joe");
 	});
+
 });
