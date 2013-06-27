@@ -1,7 +1,7 @@
 js-jazz-mine - JavaScript with Jasmine...
 ============
 
-Goal is to learn core JavaScript language, the right way. Neither as client-side scripting nor as server-side scripting. In other words - the goal is not to learn everything that JavaScript offers. Selectively, the target is limited to the good, functional and effective parts of the language. Further, I intent to test various language constructs with Jasmine and perform static code analysis with JSHint. 
+Goal is to learn good, functional and effective parts of the JavaScript language. Further, I intent to test various language constructs with Jasmine and perform static code analysis with JSHint. Sort of "JavaScript Koan", my own way.
 
 Following are the books, I am refering.
 
@@ -16,16 +16,12 @@ Couple of more books, I would like to refer are...
 
 I have following setup, but none is essential, there are other options to achive the same.
 
-1. Fedora 18 (will be moved to 19)
-2. Node.JS
-3. NPM
-4. Jasmine-Node (for testing JavaScripts based on RSpec/BDD)
-5. JSHint (for static code analysis)
-6. EMACS/Sublime
-7. FireFox 21.0 with Firebug
+1. Fedora
+2. Node.JS, NPM, Jasmine-Node (for testing JavaScripts based on RSpec/BDD), JSHint (for static code analysis)
+3. EMACS/Sublime
+4. FireFox with Firebug
 
 #####Note: 
 
-1. Contrary to the convention suggested by Jasmine, most of the times, source code is written within the spec files, for ease.
-2. Further plan is to elaborate code-commets and bring meaningful ordering among the scripts.
-3. Lately, I discovered that my approach of testing while learning can also be termed as "JavaScript Koan". 
+1. Contrary to the Jasmine convention, source code is written within the spec files, for ease.
+2. I will keep on refining my knowledge and the content, here-in. 
