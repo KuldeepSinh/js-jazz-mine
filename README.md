@@ -1,7 +1,7 @@
 js-jazz-mine - JS with Jasmine & JSHint...
 ============
 
-Goal is to learn good, functional and effective parts of the JavaScript language. And test the language constructs with Jasmine (for BDD) and JSHint (for static code analysis). Sort of "JavaScript Koan", my own way.
+Goal is to learn good, functional and effective parts of the JavaScript language and test it with Jasmine and JSHint.
 
 Following are the books, I am refering.
 
@@ -17,7 +17,7 @@ Couple of more books, I would like to refer are...
 I have following setup, but none is essential, there are other options to achive the same.
 
 1. Fedora
-2. Node.JS, NPM, Jasmine-Node (for testing JavaScripts based on RSpec/BDD), JSHint (for static code analysis)
+2. Node.JS, NPM, Jasmine-Node (for BDD), JSHint (for static code analysis)
 3. EMACS/Sublime
 4. FireFox with Firebug
 
