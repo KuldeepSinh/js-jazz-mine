@@ -3,7 +3,7 @@ js-jazz-mine - JS with Jasmine & JSHint...
 
 Goal is to learn good, functional and effective parts of the JavaScript language and test it with Jasmine and JSHint.
 
-Following are the books, I am refering.
+Books Referred...
 
 1. JavaScript : The Definitive Guide - David Flanagan
 2. JavaScript : The Good Parts - Douglas Crockford
@@ -23,5 +23,4 @@ I have following setup, but none is essential, there are other options to achive
 
 #####Note: 
 
-1. Contrary to the Jasmine convention, source code is written within the spec files, for ease.
-2. I will keep on refining my knowledge and the content, here-in. 
+1. Contrary to the Jasmine convention, source code is written within the spec files, for ease. 
