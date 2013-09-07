@@ -19,7 +19,6 @@ I have following setup, but none is essential, there are other options to achive
 1. Fedora
 2. Node.JS, NPM, Jasmine-Node (for BDD), JSHint (for static code analysis)
 3. EMACS/Sublime
-4. FireFox with Firebug
 
 #####Note: 
 
