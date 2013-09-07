@@ -7,7 +7,7 @@ describe("Function Invocation : ", function(){
     function add(a, b) {return a+b;}
     expect(add(1,2)).toEqual(3);
   });
-  it("Function can be assigned to a (non-property) variable and can be invokedk with the invocation operator () applied on the variable.", function(){
+  it("Function can be assigned to a (non-property) variable and can be invoked with the invocation operator () applied on the variable.", function(){
     function add (a, b) {return a+b;}
     var add_var  = add;
     expect(add_var(1,2)).toEqual(3);
