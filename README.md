@@ -1,7 +1,7 @@
-js-jazz-mine - JS with Jasmine & JSHint...
+js-jazz-mine - JS with Jasmine...
 ============
 
-Goal is to learn good, functional and effective parts of the JavaScript language and test it with Jasmine and JSHint.
+Learn JavaScript (core language) BDD style using Jasmine.
 
 Books Referred...
 
@@ -13,13 +13,3 @@ Couple of more books, I would like to refer are...
 
 1. Functional JavaScript - Michael Fogus
 2. Effective JavaScript - David Herman
-
-I have following setup, but none is essential, there are other options to achive the same.
-
-1. Fedora
-2. Node.JS, NPM, Jasmine-Node (for BDD), JSHint (for static code analysis)
-3. EMACS/Sublime
-
-#####Note: 
-
-1. Contrary to the Jasmine convention, source code is written within the spec files, for ease. 
