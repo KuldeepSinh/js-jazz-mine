@@ -1,7 +1,7 @@
-js-jazz-mine - JS with Jasmin...
+js-jazz-mine - JS with Jasmine...
 ============
 
-Learn JavaScript (core language) BDD style using Jasmin.
+Learn JavaScript (core language) BDD style using Jasmine.
 
 Books Referred...
 
